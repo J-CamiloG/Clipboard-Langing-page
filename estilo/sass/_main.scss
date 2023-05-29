@@ -1,0 +1,223 @@
+@media (max-width: 1000px) {
+    /* Estilos para pantallas de 500px o menos */
+    .main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0rem 5rem;
+    .mainTitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            margin-bottom: 1.8rem;
+            font-size: $tamañoTitulos;
+            font-weight: 900;
+        }
+        p{
+            max-width: 35rem;
+            color: gray;
+            font-size: $tamañoParrafos;
+        }
+    }
+    .mainContenidoPrincipal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .mainContenidoPrincipalDescripcion{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            h3{
+            margin-bottom: 0.5rem;
+            font-size: $tamañoSubtitulos;
+            font-weight: 900;
+            }
+            p{
+                max-width: 25rem;
+                color: gray;
+                font-size: $tamañoParrafos;
+                margin-bottom: 0.5rem;
+            }
+        }
+        
+    }
+    .mainSubtitulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            margin-bottom: 1.8rem;
+            font-size: $tamañoTitulos;
+            font-weight: 900;
+        }
+        p{
+            max-width: 25rem;
+            color: gray;
+            font-size: $tamañoParrafos;
+        }
+    }
+    .mainContenidoFooter{
+        .mainTitulo{
+            h2{
+                max-width: 25rem;
+                margin-bottom: 1.8rem;
+                font-size: $tamañoTitulos;
+                font-weight: 900;
+            }
+            p{
+                max-width: 25rem;
+                color: gray;
+                font-size: $tamañoParrafos;
+            }
+        }
+        .mainAdicionales{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 2.5rem;
+            .mainAdicionalesContenido{
+                margin-top: 1rem;
+                img{
+                    object-fit: contain;
+                    width: 3.5rem;
+                    height: 3.5rem;
+                }
+                h4{
+                    max-width: 25rem;
+                    margin-bottom: 1.8rem;
+                    font-size: $tamañoTitulos;
+                    font-weight: 900;
+                }
+                p{
+                    max-width: 25rem;
+                    color: gray;
+                    font-size: $tamañoParrafos;
+                }
+            }
+        }
+    }
+}
+}
+// ---------------------------hacemos el estilo para pantallas de 1001 px hacia adelante----
+
+@media(min-width: 1001px){
+    .main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 0rem 5rem;
+        .mainTitulo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2{
+                margin-bottom: 1.8rem;
+                font-size: $tamañoTitulos;
+                font-weight: 900;
+            }
+            p{
+                max-width:35rem;
+                min-width: 25rem;
+                color: gray;
+                font-size: $tamañoParrafos;
+            }
+        }
+        .mainContenidoPrincipal{
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 8rem;
+            img{
+                width: 55rem;
+            }
+            .mainContenidoPrincipalDescripcion{
+                h3{
+                margin-bottom: 0.5rem;
+                font-size: $tamañoSubtitulos;
+                font-weight: 900;
+                }
+                p{
+                    max-width:25rem;
+                    min-width: 10rem;
+                    color: gray;
+                    font-size: $tamañoParrafos;
+                    margin-bottom: 0.5rem;
+                }
+            }
+            
+        }
+        .mainSubtitulo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 5rem;
+            h2{
+                margin-bottom: 1.8rem;
+                font-size: $tamañoTitulos;
+                font-weight: 900;
+            }
+            p{
+                max-width:25rem;
+                min-width: 10rem;
+                color: gray;
+                font-size: $tamañoParrafos;
+            }
+        }
+        .mainContenidoFooter{
+            .mainTitulo{
+                h2{
+                    margin-bottom: 1.8rem;
+                    font-size: $tamañoTitulos;
+                    font-weight: 900;
+                }
+                p{
+                    max-width:25rem;
+                    min-width: 10rem;
+                    color: gray;
+                    font-size: $tamañoParrafos;
+                }
+            }
+            .mainAdicionales{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2.5rem;
+                gap: 2rem;
+                .mainAdicionalesContenido{
+                    margin-top: 1rem;
+                    img{
+                        object-fit: contain;
+                        width: 3.5rem;
+                        height: 3.5rem;
+                    }
+                    h4{
+                        margin-bottom: 1.8rem;
+                        font-size: $tamañoTitulos;
+                        font-weight: 900;
+                    }
+                    p{
+                        max-width:25rem;
+                        min-width: 10rem;
+                        color: gray;
+                        font-size: $tamañoParrafos;
+                    }
+                }
+            }
+        }
+    }
+}

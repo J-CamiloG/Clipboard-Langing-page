@@ -1,0 +1,501 @@
+@media (max-width: 1000px) {
+  /* Estilos para pantallas de 500px o menos */
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1001px) {
+  /* Estilos para pantallas de 601px o mayores */
+  body {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  /* Estilos para pantallas de 500px o menos */
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 5rem 5rem;
+  }
+  .header .contenidoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .header .contenidoHeader h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .header .contenidoHeader p {
+    max-width: 35rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .header .headerBotones {
+    margin-top: 1rem;
+    display: flex;
+    gap: 15px;
+  }
+  .header .headerBotones .botonDescargasIos {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(28, 192, 200);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .header .headerBotones .botonDescargasMac {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(124, 109, 225);
+    color: white;
+    border-radius: 0.8rem;
+  }
+}
+@media (min-width: 1001px) {
+  /* Estilos para pantallas de 601px o mayores */
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 5rem 5rem;
+  }
+  .contenidoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .contenidoHeader h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .contenidoHeader p {
+    max-width: 35rem;
+    min-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .headerBotones {
+    margin-top: 1rem;
+    display: flex;
+    gap: 15px;
+  }
+  .headerBotones .botonDescargasIos {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(28, 192, 200);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .headerBotones .botonDescargasMac {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(124, 109, 225);
+    color: white;
+    border-radius: 0.8rem;
+  }
+}
+@media (max-width: 1000px) {
+  /* Estilos para pantallas de 500px o menos */
+  .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0rem 5rem;
+  }
+  .main .mainTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .mainTitulo h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainTitulo p {
+    max-width: 35rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .mainContenidoPrincipal .mainContenidoPrincipalDescripcion {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .main .mainContenidoPrincipal .mainContenidoPrincipalDescripcion h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoPrincipal .mainContenidoPrincipalDescripcion p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .main .mainSubtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .mainSubtitulo h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainSubtitulo p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoFooter .mainTitulo h2 {
+    max-width: 25rem;
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoFooter .mainTitulo p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido {
+    margin-top: 1rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido img {
+    object-fit: contain;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido h4 {
+    max-width: 25rem;
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1001px) {
+  .main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0rem 5rem;
+  }
+  .main .mainTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main .mainTitulo h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainTitulo p {
+    max-width: 35rem;
+    min-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoPrincipal {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8rem;
+  }
+  .main .mainContenidoPrincipal img {
+    width: 55rem;
+  }
+  .main .mainContenidoPrincipal .mainContenidoPrincipalDescripcion h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoPrincipal .mainContenidoPrincipalDescripcion p {
+    max-width: 25rem;
+    min-width: 10rem;
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .main .mainSubtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .main .mainSubtitulo h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainSubtitulo p {
+    max-width: 25rem;
+    min-width: 10rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoFooter .mainTitulo h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoFooter .mainTitulo p {
+    max-width: 25rem;
+    min-width: 10rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    gap: 2rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido {
+    margin-top: 1rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido img {
+    object-fit: contain;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido h4 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main .mainContenidoFooter .mainAdicionales .mainAdicionalesContenido p {
+    max-width: 25rem;
+    min-width: 10rem;
+    color: gray;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  /* Estilos para pantallas de 500px o menos */
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0rem 5rem;
+  }
+  .footer .footerMarcas img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    object-fit: contain;
+    width: 10rem;
+  }
+  .footer .footerInformacionAdicional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer .footerInformacionAdicional h3 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .footer .footerInformacionAdicional p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones .botonDescargasIosFooter {
+    cursor: pointer;
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(28, 192, 200);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones .botonDescargasMacFooter {
+    cursor: pointer;
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(124, 109, 225);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .footerFinal {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(105, 105, 145, 0.32);
+    width: 100%;
+    height: 9rem;
+  }
+  .footerFinal .listaItems {
+    color: rgb(119, 119, 119);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .footerFinal .footerLogo {
+    width: 4rem;
+    height: 4rem;
+  }
+  .footerFinal .redesSociales {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media (min-width: 1001px) {
+  /* Estilos para pantallas de 500px o menos */
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0rem 5rem;
+  }
+  .footer .footerMarcas {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .footer .footerMarcas img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    object-fit: contain;
+    width: 10rem;
+  }
+  .footer .footerInformacionAdicional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  .footer .footerInformacionAdicional h3 {
+    margin-bottom: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .footer .footerInformacionAdicional p {
+    max-width: 25rem;
+    color: gray;
+    font-size: 1rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones .botonDescargasIosFooter {
+    cursor: pointer;
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(28, 192, 200);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .footer .footerInformacionAdicional .footerInformacionAdicionalBotones .botonDescargasMacFooter {
+    cursor: pointer;
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(124, 109, 225);
+    color: white;
+    border-radius: 0.8rem;
+  }
+  .footerFinal {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(105, 105, 145, 0.32);
+    width: 100%;
+    height: 9rem;
+  }
+  .footerFinal .listaItems {
+    color: rgb(119, 119, 119);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .footerFinal .footerLogo {
+    width: 4rem;
+    height: 4rem;
+  }
+  .footerFinal .redesSociales {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

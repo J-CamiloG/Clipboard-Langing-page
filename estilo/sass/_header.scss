@@ -1,0 +1,101 @@
+
+@media (max-width: 1000px) {
+    /* Estilos para pantallas de 500px o menos */
+    .header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 5rem 5rem;
+    .contenidoHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        h2{
+            margin-bottom: 1.8rem;
+            font-size: $tamañoTitulos;
+            font-weight: 900;
+        }
+        p{
+            max-width: 35rem;
+            color: gray;
+            font-size: $tamañoParrafos;
+        }
+    }
+    .headerBotones{
+        margin-top: 1rem;
+        display: flex;
+        gap: 15px;
+        .botonDescargasIos{
+            width: $anchoBotones;
+            height: $largoBotones;
+            background-color: $colorBotonesIos ;
+            color: white;
+            border-radius: 0.8rem;
+        }
+        .botonDescargasMac{
+            width: $anchoBotones;
+            height: $largoBotones;
+            background-color: $colorBotonesMac ;
+            color: white;
+            border-radius: 0.8rem;
+        }
+    }
+}
+}
+// ---------------------------hacemos el estilo para pantallas de 1001 px hacia adelante----
+@media (min-width: 1001px) {
+    /* Estilos para pantallas de 601px o mayores */
+    .header{ 
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 5rem 5rem;
+    }
+    .contenidoHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        h2{
+            margin-bottom: 1.8rem;
+            font-size: $tamañoTitulos;
+            font-weight: 900;
+        }
+        p{
+            max-width:35rem;
+            min-width: 25rem;
+            color: gray;
+            font-size: $tamañoParrafos;
+        }
+    }
+    .headerBotones{
+        margin-top: 1rem;
+        display: flex;
+        gap: 15px;
+        .botonDescargasIos{
+            width: $anchoBotones;
+            height: $largoBotones;
+            background-color: $colorBotonesIos ;
+            color: white;
+            border-radius: 0.8rem;
+        }
+        .botonDescargasMac{
+            width: $anchoBotones;
+            height: $largoBotones;
+            background-color: $colorBotonesMac ;
+            color: white;
+            border-radius: 0.8rem;
+        }
+    }
+}
